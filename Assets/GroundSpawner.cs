@@ -43,15 +43,15 @@ public class GroundSpawner : MonoBehaviour
         int randomNum = Random.Range(1, 4);
         if(randomNum == 1)
         {
-            Instantiate(ground1, new Vector3(transform.position.x + 4, -4.77f, 0),Quaternion.identity);
+            Instantiate(ground1, new Vector3(4.4f, transform.position.y + 3, 0),Quaternion.identity);
         }
         if (randomNum == 2)
         {
-            Instantiate(ground2, new Vector3(transform.position.x + 4, -6.4f, 0), Quaternion.identity);
+            Instantiate(ground2, new Vector3(-1.59f, transform.position.y + 3, 0), Quaternion.identity);
         }
         if (randomNum == 3)
         {
-            Instantiate(ground3, new Vector3(transform.position.x + 4, -5.32f, 0), Quaternion.identity);
+            Instantiate(ground3, new Vector3(-0.12f, transform.position.y + 3, 0), Quaternion.identity);
         }
     }
 
